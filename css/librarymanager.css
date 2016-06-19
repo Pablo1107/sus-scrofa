@@ -1,0 +1,49 @@
+body {
+	background-color: #7c7d7e;
+}
+
+button, input {
+	margin-top: 5px;
+}
+
+/*Body Style*/
+.content {
+	width: auto;
+	margin: auto;
+	max-width: 610px;
+	padding: 5px 10px 0px 10px;
+}
+
+.list {
+	min-height: 100px;
+	border: 1px solid black;
+	padding-top: 15px;
+	padding-left: 15px;
+	margin: 0px auto;
+	list-style: none;
+	display: block;
+}
+
+/*Common Style for Rows*/
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+/*----------*/
+
+/*First Row*/
+.row1 div {
+	float: left;
+	width: 50%;
+}
+/*----------*/
+
+/*Second Row*/
+.row2 div {
+	float: left;
+	width: 33.3%;
+}
+/*----------*/

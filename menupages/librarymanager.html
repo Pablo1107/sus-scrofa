@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Administrador de Biblioteca</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/librarymanager.css"/>
+	</head>
+	<body>
+		<ul class='navbar'>
+			<li><a href="#">Musica</a></li>
+			<ul class='control'>
+				<li><a href="#" id='close' class='close'><img src='../src/control/close.png'/></a></li>
+				<!-- <li><a href="#" id='max'><img src='src/control/max.png'/></a></li>
+				<li><a href="#" id='min'><img src='src/control/min.png'/></a></li> -->
+			</ul>
+		</ul>
+		<div class='content'>
+			<ol id='list' class='list'></ol>
+
+			<div class='row1'>
+				<div>
+					<input id='selFolder' type='file' webkitdirectory directory multiple/>
+				</div>
+
+				<div class='align-right'>
+					<input id='input1' size='1'/>
+					<button id='removeFolder'>Quitar Carpeta</button>
+				</div>
+			</div>
+
+			<div class='row2'>
+				<div><button id='checkFiles'>Revisar Archivos</button></div>
+				<div class="align-center"><button id='refreshList'>Refrescar Lista</button></div>
+				<div class="align-right"><button id='checkFolders'>Revisar Carpetas</button></div>
+			</div>
+		</div>
+
+		<script src='../js/librarymanager.js'></script>
+	</body>
+</html>
